@@ -7,4 +7,4 @@ def uppercase(s):
             npr += chr(nchar)
         else:
             npr += i
-    print(npr)
+    print("{}".format(npr))
