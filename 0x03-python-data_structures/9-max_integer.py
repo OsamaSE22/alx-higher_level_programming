@@ -3,11 +3,10 @@ def max_integer(my_list=[]):
     result = 0
     if my_list == []:
         return None
-
+    if len(my_list) == 1:
+        result = my_list[0]
+        return result
     for i in range(len(my_list) - 1):
-        if len(my_list) == 1:
-            result = my_list[0]
-            break
         if my_list[i] == my_list[len(my_list) - 1]:
             if result > my_list[i]:
                 break
