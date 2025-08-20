@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
     count = 0
+    if roman_string != str(roman_string) or roman_string is None:
+        return 0
     for i in roman_string:
         if i == 'X':
             count += 10
