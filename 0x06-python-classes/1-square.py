@@ -2,6 +2,8 @@
 """this class is named Square.
 It as a private attribute called size.
 """
+
+
 class Square:
     """this is almost an empty class.
     It just has the private attribute size
