@@ -44,5 +44,8 @@ class Square:
     def my_print(self):
         st = '#'
         w = self.__size * st
-        for i in w:
-            print(w)
+        if self.__size == 0:
+            print()
+        else:
+            for i in w:
+                print(w)
