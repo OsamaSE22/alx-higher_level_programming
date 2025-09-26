@@ -19,10 +19,12 @@ class Rectangle:
         """this is a constructor to define Rectangle."""
         self.width = width
         self.height = height
+
     @property
     def width(self):
         """this is a property to define width Rectangle."""
         return self.__width
+
     @width.setter
     def width(self, value):
         """this is a setter to define width Rectangle."""
@@ -32,10 +34,12 @@ class Rectangle:
             raise ValueError("width must be >= 0")
         else:
             self.__width = value
+
     @property
     def height(self):
         """this is a property to define height Rectangle."""
         return self.__height
+
     @height.setter
     def height(self, value):
         """this is a setter to define height Rectangle."""
