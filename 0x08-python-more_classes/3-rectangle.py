@@ -73,6 +73,7 @@ class Rectangle:
             return 0
         else:
             return self.__width * 2 + self.__height * 2
+
     def __str__(self):
         """ print the rectangle with the character #"""
         symb = '#' * self.__width
