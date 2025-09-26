@@ -76,8 +76,8 @@ class Rectangle:
     def __str__(self):
         """ print the rectangle with the character #"""
         symb = '#' * self.__width
-        if self.width == 0 or self.height == 0:
-            return ' '
+        if self.__width == 0 or self.__height == 0:
+            return ""
         rect = ""
         for i in range(self.__height):
             rect += symb
