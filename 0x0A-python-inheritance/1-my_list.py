@@ -11,11 +11,3 @@ class MyList(list):
         without affecting the original one"""
 
         print(sorted(self))
-
-
-if __name__ == "__main__":
-
-    """this is excuted when the module called in main shell"""
-
-    import doctest
-    doctest.testfile("tests/1-my_list.txt")
