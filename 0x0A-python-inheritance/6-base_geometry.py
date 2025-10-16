@@ -8,4 +8,4 @@ class BaseGeometry:
     def area(self):
 
         """a public methid that raise an exception"""
-        raise Exception("is not implemented")
+        raise Exception("area() is not implemented")
