@@ -9,4 +9,4 @@ bg.integer_validator("width", 89)
 try:
     BaseGeometry.integer_validator("name")
 except Exception as e:
-     print("[{}] {}".format(e.__class__.__name__, e))
+    print("[{}] {}".format(e.__class__.__name__, e))

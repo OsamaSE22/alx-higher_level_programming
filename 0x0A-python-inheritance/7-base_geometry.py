@@ -9,8 +9,8 @@ class BaseGeometry:
 
         """a public methid that raise an exception"""
         raise Exception("area() is not implemented")
-
-    def integer_validator(self, name, value):
+    @staticmethod
+    def integer_validator(name, value):
 
         """raise exceptions with false input to this public function"""
         if type(value) is not int:
