@@ -3,6 +3,7 @@
 
 
 def write_file(filename="", text=""):
+    '''the function write a txt file and return the number of bytes'''
     with open(filename, 'w', encoding='utf-8') as f:
         result = f.write(text)
     return result
