@@ -5,4 +5,5 @@ import json
 
 
 def from_json_string(my_str):
+    '''pass the json string and get the python object data structure'''
     return json.loads(my_str)
